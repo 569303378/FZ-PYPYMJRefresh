@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A3B7241D506B5200A68D05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3B7231D506B5200A68D05 /* main.m */; };
+		18A3B7271D506B5200A68D05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3B7261D506B5200A68D05 /* AppDelegate.m */; };
+		18A3B72A1D506B5200A68D05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3B7291D506B5200A68D05 /* ViewController.m */; };
+		18A3B72D1D506B5200A68D05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A3B72B1D506B5200A68D05 /* Main.storyboard */; };
+		18A3B72F1D506B5200A68D05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A3B72E1D506B5200A68D05 /* Assets.xcassets */; };
+		18A3B7321D506B5200A68D05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A3B7301D506B5200A68D05 /* LaunchScreen.storyboard */; };
+		18A3B73D1D506B5200A68D05 /* PYMJRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3B73C1D506B5200A68D05 /* PYMJRefreshTests.m */; };
+		18A3B7481D506B5200A68D05 /* PYMJRefreshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A3B7471D506B5200A68D05 /* PYMJRefreshUITests.m */; };
+		76FF3DDB842DC01A07AE2063 /* libPods-PYMJRefresh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 456260C69896D5D80B99BD0B /* libPods-PYMJRefresh.a */; };
+		CF97B99DD6279379ADE6765E /* libPods-PYMJRefreshUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5479C0F8FD1675ED8689B7 /* libPods-PYMJRefreshUITests.a */; };
+		EE02396A1A1F9E62EC9D290E /* libPods-PYMJRefreshTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEA1D3DA6F5974D3886C6F9 /* libPods-PYMJRefreshTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A3B7391D506B5200A68D05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A3B7171D506B5200A68D05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A3B71E1D506B5200A68D05;
+			remoteInfo = PYMJRefresh;
+		};
+		18A3B7441D506B5200A68D05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A3B7171D506B5200A68D05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A3B71E1D506B5200A68D05;
+			remoteInfo = PYMJRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A3B71F1D506B5200A68D05 /* PYMJRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYMJRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A3B7231D506B5200A68D05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18A3B7251D506B5200A68D05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18A3B7261D506B5200A68D05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18A3B7281D506B5200A68D05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18A3B7291D506B5200A68D05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18A3B72C1D506B5200A68D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A3B72E1D506B5200A68D05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A3B7311D506B5200A68D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A3B7331D506B5200A68D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A3B7381D506B5200A68D05 /* PYMJRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYMJRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A3B73C1D506B5200A68D05 /* PYMJRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYMJRefreshTests.m; sourceTree = "<group>"; };
+		18A3B73E1D506B5200A68D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A3B7431D506B5200A68D05 /* PYMJRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYMJRefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A3B7471D506B5200A68D05 /* PYMJRefreshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYMJRefreshUITests.m; sourceTree = "<group>"; };
+		18A3B7491D506B5200A68D05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		456260C69896D5D80B99BD0B /* libPods-PYMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PYMJRefresh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		652B58708290FED64EF3FB5E /* Pods-PYMJRefreshUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYMJRefreshUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PYMJRefreshUITests/Pods-PYMJRefreshUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6C537281EC8112B1EA42FFBF /* Pods-PYMJRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYMJRefresh.release.xcconfig"; path = "Pods/Target Support Files/Pods-PYMJRefresh/Pods-PYMJRefresh.release.xcconfig"; sourceTree = "<group>"; };
+		764BF34A41934AB6199A6369 /* Pods-PYMJRefreshUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYMJRefreshUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PYMJRefreshUITests/Pods-PYMJRefreshUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B060FB0656B1F79C92D3A017 /* Pods-PYMJRefreshTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYMJRefreshTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PYMJRefreshTests/Pods-PYMJRefreshTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDEA1D3DA6F5974D3886C6F9 /* libPods-PYMJRefreshTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PYMJRefreshTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22839954265766FDF265EAD /* Pods-PYMJRefreshTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYMJRefreshTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PYMJRefreshTests/Pods-PYMJRefreshTests.release.xcconfig"; sourceTree = "<group>"; };
+		F5BCB695DEE40FA7516F164E /* Pods-PYMJRefresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYMJRefresh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PYMJRefresh/Pods-PYMJRefresh.debug.xcconfig"; sourceTree = "<group>"; };
+		FE5479C0F8FD1675ED8689B7 /* libPods-PYMJRefreshUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PYMJRefreshUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A3B71C1D506B5200A68D05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FF3DDB842DC01A07AE2063 /* libPods-PYMJRefresh.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A3B7351D506B5200A68D05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE02396A1A1F9E62EC9D290E /* libPods-PYMJRefreshTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A3B7401D506B5200A68D05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF97B99DD6279379ADE6765E /* libPods-PYMJRefreshUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		101C0066112BC7E4B3368C48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				456260C69896D5D80B99BD0B /* libPods-PYMJRefresh.a */,
+				CDEA1D3DA6F5974D3886C6F9 /* libPods-PYMJRefreshTests.a */,
+				FE5479C0F8FD1675ED8689B7 /* libPods-PYMJRefreshUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18A3B7161D506B5200A68D05 = {
+			isa = PBXGroup;
+			children = (
+				18A3B7211D506B5200A68D05 /* PYMJRefresh */,
+				18A3B73B1D506B5200A68D05 /* PYMJRefreshTests */,
+				18A3B7461D506B5200A68D05 /* PYMJRefreshUITests */,
+				18A3B7201D506B5200A68D05 /* Products */,
+				F0F2942511C7EB154651BFDA /* Pods */,
+				101C0066112BC7E4B3368C48 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18A3B7201D506B5200A68D05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A3B71F1D506B5200A68D05 /* PYMJRefresh.app */,
+				18A3B7381D506B5200A68D05 /* PYMJRefreshTests.xctest */,
+				18A3B7431D506B5200A68D05 /* PYMJRefreshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A3B7211D506B5200A68D05 /* PYMJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				18A3B7251D506B5200A68D05 /* AppDelegate.h */,
+				18A3B7261D506B5200A68D05 /* AppDelegate.m */,
+				18A3B7281D506B5200A68D05 /* ViewController.h */,
+				18A3B7291D506B5200A68D05 /* ViewController.m */,
+				18A3B72B1D506B5200A68D05 /* Main.storyboard */,
+				18A3B72E1D506B5200A68D05 /* Assets.xcassets */,
+				18A3B7301D506B5200A68D05 /* LaunchScreen.storyboard */,
+				18A3B7331D506B5200A68D05 /* Info.plist */,
+				18A3B7221D506B5200A68D05 /* Supporting Files */,
+			);
+			path = PYMJRefresh;
+			sourceTree = "<group>";
+		};
+		18A3B7221D506B5200A68D05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A3B7231D506B5200A68D05 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A3B73B1D506B5200A68D05 /* PYMJRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A3B73C1D506B5200A68D05 /* PYMJRefreshTests.m */,
+				18A3B73E1D506B5200A68D05 /* Info.plist */,
+			);
+			path = PYMJRefreshTests;
+			sourceTree = "<group>";
+		};
+		18A3B7461D506B5200A68D05 /* PYMJRefreshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A3B7471D506B5200A68D05 /* PYMJRefreshUITests.m */,
+				18A3B7491D506B5200A68D05 /* Info.plist */,
+			);
+			path = PYMJRefreshUITests;
+			sourceTree = "<group>";
+		};
+		F0F2942511C7EB154651BFDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5BCB695DEE40FA7516F164E /* Pods-PYMJRefresh.debug.xcconfig */,
+				6C537281EC8112B1EA42FFBF /* Pods-PYMJRefresh.release.xcconfig */,
+				B060FB0656B1F79C92D3A017 /* Pods-PYMJRefreshTests.debug.xcconfig */,
+				D22839954265766FDF265EAD /* Pods-PYMJRefreshTests.release.xcconfig */,
+				764BF34A41934AB6199A6369 /* Pods-PYMJRefreshUITests.debug.xcconfig */,
+				652B58708290FED64EF3FB5E /* Pods-PYMJRefreshUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A3B71E1D506B5200A68D05 /* PYMJRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A3B74C1D506B5200A68D05 /* Build configuration list for PBXNativeTarget "PYMJRefresh" */;
+			buildPhases = (
+				A90A8FC40849D74183C98266 /* [CP] Check Pods Manifest.lock */,
+				18A3B71B1D506B5200A68D05 /* Sources */,
+				18A3B71C1D506B5200A68D05 /* Frameworks */,
+				18A3B71D1D506B5200A68D05 /* Resources */,
+				033E06DC692E7EE8EEE13D18 /* [CP] Embed Pods Frameworks */,
+				940E2E190BBED7F213F566A2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PYMJRefresh;
+			productName = PYMJRefresh;
+			productReference = 18A3B71F1D506B5200A68D05 /* PYMJRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A3B7371D506B5200A68D05 /* PYMJRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A3B74F1D506B5200A68D05 /* Build configuration list for PBXNativeTarget "PYMJRefreshTests" */;
+			buildPhases = (
+				B3223E6E4D3E6DB78D8DF77C /* [CP] Check Pods Manifest.lock */,
+				18A3B7341D506B5200A68D05 /* Sources */,
+				18A3B7351D506B5200A68D05 /* Frameworks */,
+				18A3B7361D506B5200A68D05 /* Resources */,
+				BF141572DE441A77315A53F8 /* [CP] Embed Pods Frameworks */,
+				BBB43D25211A2FD9105CE55A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A3B73A1D506B5200A68D05 /* PBXTargetDependency */,
+			);
+			name = PYMJRefreshTests;
+			productName = PYMJRefreshTests;
+			productReference = 18A3B7381D506B5200A68D05 /* PYMJRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A3B7421D506B5200A68D05 /* PYMJRefreshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A3B7521D506B5200A68D05 /* Build configuration list for PBXNativeTarget "PYMJRefreshUITests" */;
+			buildPhases = (
+				5018B7E7D1E103AE0D1BBE10 /* [CP] Check Pods Manifest.lock */,
+				18A3B73F1D506B5200A68D05 /* Sources */,
+				18A3B7401D506B5200A68D05 /* Frameworks */,
+				18A3B7411D506B5200A68D05 /* Resources */,
+				598C021B5FB7368C706B7DDD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A3B7451D506B5200A68D05 /* PBXTargetDependency */,
+			);
+			name = PYMJRefreshUITests;
+			productName = PYMJRefreshUITests;
+			productReference = 18A3B7431D506B5200A68D05 /* PYMJRefreshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A3B7171D506B5200A68D05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18A3B71E1D506B5200A68D05 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8B4BA8E4SM;
+					};
+					18A3B7371D506B5200A68D05 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8B4BA8E4SM;
+						TestTargetID = 18A3B71E1D506B5200A68D05;
+					};
+					18A3B7421D506B5200A68D05 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8B4BA8E4SM;
+						TestTargetID = 18A3B71E1D506B5200A68D05;
+					};
+				};
+			};
+			buildConfigurationList = 18A3B71A1D506B5200A68D05 /* Build configuration list for PBXProject "PYMJRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A3B7161D506B5200A68D05;
+			productRefGroup = 18A3B7201D506B5200A68D05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A3B71E1D506B5200A68D05 /* PYMJRefresh */,
+				18A3B7371D506B5200A68D05 /* PYMJRefreshTests */,
+				18A3B7421D506B5200A68D05 /* PYMJRefreshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A3B71D1D506B5200A68D05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A3B7321D506B5200A68D05 /* LaunchScreen.storyboard in Resources */,
+				18A3B72F1D506B5200A68D05 /* Assets.xcassets in Resources */,
+				18A3B72D1D506B5200A68D05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A3B7361D506B5200A68D05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A3B7411D506B5200A68D05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		033E06DC692E7EE8EEE13D18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PYMJRefresh/Pods-PYMJRefresh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5018B7E7D1E103AE0D1BBE10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		598C021B5FB7368C706B7DDD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PYMJRefreshUITests/Pods-PYMJRefreshUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		940E2E190BBED7F213F566A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PYMJRefresh/Pods-PYMJRefresh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A90A8FC40849D74183C98266 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3223E6E4D3E6DB78D8DF77C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BBB43D25211A2FD9105CE55A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PYMJRefreshTests/Pods-PYMJRefreshTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF141572DE441A77315A53F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PYMJRefreshTests/Pods-PYMJRefreshTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A3B71B1D506B5200A68D05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A3B72A1D506B5200A68D05 /* ViewController.m in Sources */,
+				18A3B7271D506B5200A68D05 /* AppDelegate.m in Sources */,
+				18A3B7241D506B5200A68D05 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A3B7341D506B5200A68D05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A3B73D1D506B5200A68D05 /* PYMJRefreshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A3B73F1D506B5200A68D05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A3B7481D506B5200A68D05 /* PYMJRefreshUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A3B73A1D506B5200A68D05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A3B71E1D506B5200A68D05 /* PYMJRefresh */;
+			targetProxy = 18A3B7391D506B5200A68D05 /* PBXContainerItemProxy */;
+		};
+		18A3B7451D506B5200A68D05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A3B71E1D506B5200A68D05 /* PYMJRefresh */;
+			targetProxy = 18A3B7441D506B5200A68D05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A3B72B1D506B5200A68D05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A3B72C1D506B5200A68D05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A3B7301D506B5200A68D05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A3B7311D506B5200A68D05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A3B74A1D506B5200A68D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18A3B74B1D506B5200A68D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A3B74D1D506B5200A68D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5BCB695DEE40FA7516F164E /* Pods-PYMJRefresh.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PYMJRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYMJRefresh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18A3B74E1D506B5200A68D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C537281EC8112B1EA42FFBF /* Pods-PYMJRefresh.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PYMJRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYMJRefresh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18A3B7501D506B5200A68D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B060FB0656B1F79C92D3A017 /* Pods-PYMJRefreshTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PYMJRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYMJRefreshTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYMJRefresh.app/PYMJRefresh";
+			};
+			name = Debug;
+		};
+		18A3B7511D506B5200A68D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D22839954265766FDF265EAD /* Pods-PYMJRefreshTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PYMJRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYMJRefreshTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYMJRefresh.app/PYMJRefresh";
+			};
+			name = Release;
+		};
+		18A3B7531D506B5200A68D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 764BF34A41934AB6199A6369 /* Pods-PYMJRefreshUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PYMJRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYMJRefreshUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PYMJRefresh;
+			};
+			name = Debug;
+		};
+		18A3B7541D506B5200A68D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 652B58708290FED64EF3FB5E /* Pods-PYMJRefreshUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PYMJRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYMJRefreshUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PYMJRefresh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A3B71A1D506B5200A68D05 /* Build configuration list for PBXProject "PYMJRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A3B74A1D506B5200A68D05 /* Debug */,
+				18A3B74B1D506B5200A68D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A3B74C1D506B5200A68D05 /* Build configuration list for PBXNativeTarget "PYMJRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A3B74D1D506B5200A68D05 /* Debug */,
+				18A3B74E1D506B5200A68D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A3B74F1D506B5200A68D05 /* Build configuration list for PBXNativeTarget "PYMJRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A3B7501D506B5200A68D05 /* Debug */,
+				18A3B7511D506B5200A68D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A3B7521D506B5200A68D05 /* Build configuration list for PBXNativeTarget "PYMJRefreshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A3B7531D506B5200A68D05 /* Debug */,
+				18A3B7541D506B5200A68D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A3B7171D506B5200A68D05 /* Project object */;
+}
